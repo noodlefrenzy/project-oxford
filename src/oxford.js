@@ -1,5 +1,6 @@
 var emotion = require('./emotion.js'),
     face    = require('./face.js'),
+    luis    = require('./luis.js'),
     text    = require('./text.js'),
     video   = require('./video.js'),
     vision  = require('./vision.js'),
@@ -18,6 +19,7 @@ oxford.Client = function (key) {
 
     this._key    = key;
     this.emotion = emotion(key);
+    this.luis    = luis(key);
     this.face    = face(key);
     this.text    = text(key);
     this.video   = video(key);

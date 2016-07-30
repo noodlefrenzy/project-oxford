@@ -25,6 +25,7 @@ module.exports = function (grunt) {
                 files: {
                     'dist/emotion.js': 'src/emotion.js',
                     'dist/face.js': 'src/face.js',
+                    'dist/luis.js': 'src/luis.js',
                     'dist/oxford.js': 'src/oxford.js',
                     'dist/text.js': 'src/text.js',
                     'dist/video.js': 'src/video.js',
